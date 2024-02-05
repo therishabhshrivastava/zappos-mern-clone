@@ -1,4 +1,4 @@
-💻 Zappos ( clone ) : an ecommerce Website 🚀🎯
+💻 Zappos ( clone ) : an ecommerce Website
 
 ## Overview
 
