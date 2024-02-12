@@ -1,0 +1,79 @@
+.nav{
+  position: relative;
+  z-index: 10;
+}
+
+/* dropdowns */
+.dropDownPart {
+ 
+  padding: 0px 24px;
+  height: 50px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+.dropDownPart > div {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 57, 83);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
+}
+.dropDownPart > div > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.dropDownPart > div > div:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(0, 57, 83);
+}
+.dropDownPart > div:last-child:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(0, 57, 83);
+}
+.dropdown {
+  position: relative;
+}
+.dropdown:hover .dropdownContent {
+  display: flex;
+}
+.dropdownContent {
+  position: absolute;
+  display: flex;
+  gap: 50px;
+  display: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  top: 50px;
+  background-color: #fff;
+  padding: 15px 30px ;
+}
+.dropdownContent > div {
+  width: 150px;
+}
+.dropdownContent p {
+  font-weight: normal;
+  font-size: 15px;
+}
+.dropdownContent .dropdownHead {
+  font-weight: 600;
+  font-size: 17px;
+  padding-top: 5px;
+}
+.dropdownContent p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.movingText {
+  height: 35px;
+  background-color: lavender;
+  text-align: center;
+}
+.movingText p{
+  font-size: 16px;
+}
